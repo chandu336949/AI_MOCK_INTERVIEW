@@ -118,7 +118,6 @@ GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 MURF_API_KEY=YOUR_MURF_API_KEY
 ASSEMBLYAI_API_KEY=YOUR_ASSEMBLYAI_API_KEY
 
-CLIENT_URL=http://localhost:5173
 ```
 
 ---
@@ -142,8 +141,6 @@ node_modules
 
 ## 1️⃣ Clone Repository
 
-```bash
-git clone https://github.com/your-username/your-repository-name.git
 ```
 
 ---
@@ -203,6 +200,13 @@ http://localhost:5000
 ```
 
 ---
+## 🚀 Live Demo
+
+You can explore the live deployment here:
+
+* **Live Web Application:** [https://interviewgen-ai.vercel.app](https://interviewgen-ai.vercel.app)
+
+> 💡 **Note for Reviewers:** The frontend is hosted on Vercel and connects to a backend hosted on Render's free tier. If you are logging in or signing up for the first time, the backend server may take about **50-60 seconds** to wake up from its sleep cycle. Thank you for your patience!
 
 # 🧠 Functionalities Implemented
 
