@@ -15,7 +15,9 @@
 
 import { Router } from 'express';
 import authRoutes from './auth.routes.js';
-
+import resumeRoutes from './resume.routes.js';
+import interviewRoutes from './interview.routes.js';
+import historyRoutes from './history.routes.js';
 // TODO: Import resume, interview, and history routes as you build them
 // import resumeRoutes from './resume.routes.js';
 // import interviewRoutes from './interview.routes.js';
@@ -24,8 +26,10 @@ import authRoutes from './auth.routes.js';
 const router = Router();
 
 // Mount route modules
-router.use('/auth', authRoutes);           // → /api/auth/...
-
+router.use('/auth', authRoutes);          // → /api/auth/...
+router.use('/resume', resumeRoutes);
+router.use('/interview', interviewRoutes);
+router.use('/history', historyRoutes);
 // TODO: Mount resume, interview, and history routes as you build them
 // router.use('/resume', resumeRoutes);       // → /api/resume/...
 // router.use('/interview', interviewRoutes); // → /api/interview/...
